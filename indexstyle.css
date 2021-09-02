@@ -35,6 +35,14 @@ header{
 #search::placeholder{
     color: aqua;
 }
+
+@media (max-width: 600px) {
+    #search {
+        display: flex;
+        justify-content: space-between;
+      width: 60px;
+    }
+  }
  #container{
    display: flex;
    flex-wrap: wrap;
